@@ -1,3 +1,5 @@
+import Clients from "../Components/Clients"
+import Footer from "../Components/Footer"
 import PopularDestination from "../Components/PopularDestination"
 import Services from "../Components/Services"
 const Home = () => {
@@ -13,6 +15,8 @@ const Home = () => {
     </div>
     <PopularDestination />
     <Services />
+    <Clients />
+    <Footer />
     </>
   )
 }
