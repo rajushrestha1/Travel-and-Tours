@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
     <div className="relative h-screen bg-cover bg-center" 
-    style={{backgroundImage :"url('/Images/hero.png')"}}>
+    style={{backgroundImage :"url('/Images/homee.jpg')"}}>
       <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">this is a travel and tour agency</h1>
         <p className="text-lg md:text-2xl text-white mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

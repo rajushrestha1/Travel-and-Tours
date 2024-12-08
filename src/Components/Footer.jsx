@@ -1,4 +1,4 @@
-import { Link } from "@mui/material"
+import { Link } from "react-router-dom"
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -33,13 +33,13 @@ const Footer = () => {
             <input type="email" placeholder="Enter Your Email" required  
             className="rounded-l-lg p-2 w-full bg-gray-800 border border-gray-600"/>
             <button className="bg-blue-800 text-white px-4 py-2 
-            border border-gray-600 rounded-r-lg ">Submit</button>
+            border border-gray-600 rounded-r-lg h-11 hover:bg-blue-600">Submit</button>
         </form>
       </div>
         </div>
         <div className=" mt-8 justify-center border-t border-gray-700 pt-4">
         <p> @ 2024 Travel Agency. All rights reserved. </p>
-        <div className=" flex justify-end space-x-4 mt-4 md:mt-0">
+        <div className=" flex justify-end space-x-4 mt-4 md:mt-0 cursor-pointer">
             <Link to="">Privacy Policy</Link>
             <Link to="">Terms of services</Link>
         </div>

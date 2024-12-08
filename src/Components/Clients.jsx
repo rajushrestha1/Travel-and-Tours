@@ -4,21 +4,21 @@ const Clients = () => {
         {
             id:'1',
             name :'saroj',
-            image:'/Images/man.png',
+            image:'/Images/saroj.png',
             title : 'Paris,France',
             description:'beautiful city Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane,'
         },
         {
             id:'2',
             name :'Rupesh',
-            image:'/Images/me.png',
+            image:'/Images/rupesh.png',
             title : 'Paris,France',
             description:'beautiful city Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane,'
         },
         {
             id:'3',
             name :'Aashish',
-            image:'/Images/me2.png',
+            image:'/Images/aashish.png',
             title : 'Paris,France',
             description:'beautiful city Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane,'
         },
@@ -34,7 +34,7 @@ const Clients = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-12 sm:px-0">
             {client.map(({id,name,image,title,description})=>
             <div key={id} className="bg-white rounded-lg shadow-md p-4 overflow-hidden taxt-center cursor-pointer transform transition duration-300 hover:scale-110">
-                <img src={image} className=" h-24 w-24 mx-auto my-3 items-center justify-center flex rounded-full "/>
+                <img src={image} className=" h-28 w-28 mx-auto my-3 items-center justify-center flex  "/>
                 <div className="">
                 <h1 className="text-xl font-bold mb-2 text-center">{name}</h1>
                 <h1 className="text-xl font-bold mb-2">{title}</h1>

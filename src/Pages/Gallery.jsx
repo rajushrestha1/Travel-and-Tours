@@ -2,12 +2,13 @@ import Footer from "../Components/Footer";
 
 const Gallery = () => {
     const images=[
-        '/Images/gal1.jpg',
-        '/Images/gal2.jpg',
-        '/Images/gal3.jpg',
-        '/Images/gal4.jpg',
-        '/Images/gal5.webp',
-        '/Images/gal6.webp',
+        '/Images/08.jpeg',
+        '/Images/02.jpg',
+        '/Images/03.jpeg',
+        '/Images/o4.jpeg',
+        '/Images/05.jpeg',
+        '/Images/07.jpeg',
+        '/Images/09.jpeg',
 
     ];
   return (
@@ -16,7 +17,7 @@ const Gallery = () => {
     <div>
         <div>
       <div className="relative h-screen bg-cover bg-center" 
-    style={{backgroundImage :"url('/Images/hero.png')"}}>
+    style={{backgroundImage :"url('/Images/02.jpg')"}}>
       <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Explore Our Gallery</h1>
         

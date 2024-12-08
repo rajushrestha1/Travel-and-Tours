@@ -4,10 +4,12 @@ import Navbar from "./Components/Navbar"
 import Gallery from "./Pages/Gallery"
 import Contact from "./Pages/Contact"
 import About from "./Pages/About"
+
 const App = () => {
   return (
     <BrowserRouter>
     <Navbar />
+    
     <Routes>
       <Route path="/" element={<Home/>}>
       </Route>
