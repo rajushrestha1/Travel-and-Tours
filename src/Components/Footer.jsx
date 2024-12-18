@@ -23,11 +23,35 @@ const Footer = () => {
       </div>
       <div>
         <h3 className="font-semibold text-lg mb-3">Follow Us</h3>
-        <div className="flex space-x-4 mb-4">
-            <FacebookIcon className="text-blue-600 hover:text-blue-700" size={50}/>
-            <InstagramIcon className="text-pink-600 hover:text-pink-700" size={50}/>
-            <LinkedInIcon className="text-blue-600 hover:text-blue-700" size={50}/>
-            <GitHubIcon className="text-gray-950 hover:text-gray-950" size={50}/>
+        <div className="flex space-x-4 mb-4 cursor-pointer">
+        <a href='https://github.com/rajushrestha1'
+                className='text-xl  text-gray-950 hover:text-gray-950'
+                target='_blank'
+                rel='noopner noreferrer'
+                >
+                    <GitHubIcon />
+                </a>
+                    <a href='https://www.linkedin.com/in/raju-shrestha-6b5070245/'
+                className='text-xl text-blue-600 hover:text-blue-700 '
+                target='_blank'
+                rel='noopner noreferrer'
+                >
+                <LinkedInIcon />
+                </a>
+                <a href='https://www.facebook.com/raju.stha.123829'
+                className='text-xl text-blue-600 hover:text-blue-700'
+                target='_blank'
+                rel='noopner noreferrer'
+                >
+                <FacebookIcon />
+                </a>
+                <a href='https://www.instagram.com/rajushrestha67/'
+                className='text-xl text-pink-600 hover:text-pink-700  '
+                target='_blank'
+                rel='noopner noreferrer'
+                >
+                <InstagramIcon />
+                </a>
         </div>
         <form className="flex items-center justify-center mt-8">
             <input type="email" placeholder="Enter Your Email" required  

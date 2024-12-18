@@ -1,18 +1,22 @@
 import EmailIcon from '@mui/icons-material/Email';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import Footer from '../Components/Footer';
+// import Footer from '../Components/Footer';
 const Contact = () => {
   return (
     <>
     <div>
       <div>
-      <div className="relative h-screen bg-cover bg-center" 
-    style={{backgroundImage :"url('/Images/02.jpg')"}}>
+      {/* <div className="relative h-screen bg-cover bg-center" 
+    style={{backgroundImage :"url('/Images/02.jpg')"}}
+    >
       <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Contact Me</h1>
       </div>
-    </div>
+    </div> */}
+    <h1 className="text-3xl font-bold text-center mb-8">
+       Contact
+        </h1>
     <div className='bg-gray-800 text-white p-6'>
       <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-8 mx-auto px-4'>
         <div className=''>
@@ -75,7 +79,7 @@ const Contact = () => {
     </div>
       </div>
     </div>
-    <Footer className='border-t border-gray-600' />
+    {/* <Footer className='border-t border-gray-600' /> */}
     </>
   )
 }
