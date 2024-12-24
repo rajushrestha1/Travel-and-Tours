@@ -1,4 +1,4 @@
-// import Footer from "../Components/Footer";
+import Footer from "../Components/Footer";
 
 const Gallery = () => {
     const images=[
@@ -16,14 +16,14 @@ const Gallery = () => {
 
     <div>
         <div>
-      {/* <div className="relative h-screen bg-cover bg-center" 
+      <div className="relative h-screen bg-cover bg-center" 
     style={{backgroundImage :"url('/Images/02.jpg')"}}
     >
       <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Explore Our Gallery</h1>
         
       </div>
-    </div> */}
+    </div>
     <h1 className="text-3xl font-bold text-center mb-8">
       Gallery
         </h1>
@@ -36,7 +36,7 @@ const Gallery = () => {
         </div>
     </div>
     </div>
-    {/* <Footer /> */}
+    <Footer />
     </>
     
   )

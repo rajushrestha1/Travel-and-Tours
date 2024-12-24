@@ -13,7 +13,9 @@ const Navbar = () => {
         <Link to="/gallery" className='px-6 py-2 hover:text-blue-500'>Gallery</Link>
         <Link to="/contact" className='px-6 py-2 hover:text-blue-500'>Contact</Link>
         <Link to="/about" className='px-6 py-2 hover:text-blue-500'>About</Link>
-        <button className='py-2 px-6 border bg-gray-300'>Login</button>
+       <Link to ="/login">
+       <button className='py-2 px-6 border bg-gray-300'>Login</button>
+       </Link> 
       </div>
       <div className='md:hidden'>
         <button onClick={()=>setIsOpen(!isOpen)}>{isOpen? <MenuOpenIcon />: <MenuIcon />} </button>
@@ -25,7 +27,9 @@ const Navbar = () => {
             <Link to="/gallery" className='px-6 py-2 hover:text-blue-500'>Gallery</Link>
             <Link to="/contact" className='px-6 py-2 hover:text-blue-500'>Contact</Link>
             <Link to="/about" className='px-6 py-2 hover:text-blue-500'>About</Link>
-            <button className='py-2 px-6 border bg-gray-300'>Login</button>
+            <Link to ="/login">
+       <button className='py-2 px-6 border bg-gray-300'>Login</button>
+       </Link> 
           </div>
 
         )}

@@ -2,9 +2,6 @@ import Clients from "../Components/Clients"
 import Footer from "../Components/Footer"
 import PopularDestination from "../Components/PopularDestination"
 import Services from "../Components/Services"
-import Gallery from "../Pages/Gallery"
-import About from "../Pages/About"
-import Contact from "../Pages/Contact"
 const Home = () => {
   return (
     <>
@@ -16,12 +13,9 @@ const Home = () => {
         <button className="border text-white px-6 py-2 rounded-full text-lg md:text-xl bg-blue-500 hover:bg-white hover:text-blue-500 transform transition duration-300 hover:scale-105">Get started</button>
       </div>
     </div>
-    <Gallery />
-    <About />
     <PopularDestination />
     <Services />
     <Clients />
-    <Contact />
     <Footer />
     </>
   )

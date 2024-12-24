@@ -1,18 +1,18 @@
-// import Footer from '../Components/Footer'
+import Footer from '../Components/Footer'
 const About = () => {
   return (
     <>
     
     <div>
-      {/* <div className="relative h-screen bg-cover bg-center" 
+      <div className="relative h-screen bg-cover bg-center" 
     style={{backgroundImage :"url('/Images/02.jpg')"}} 
     >
       <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">About Us</h1>
         
       </div>
-    </div> */}
-    <h1 className="text-3xl font-bold text-center mb-8">
+    </div>
+    <h1 className="text-3xl font-bold text-center mb-8 w-full h-full">
         About
         </h1>
     <div className="mx-auto px-4 py-12">
@@ -42,7 +42,7 @@ const About = () => {
         </div>
     </div>
     </div>
-    {/* <Footer /> */}
+    <Footer />
     </>
   )
 }
